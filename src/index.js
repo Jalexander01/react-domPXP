@@ -1,15 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Heading from "./pages/heading/Heading.component.jsx";
+import Heading from "./components/heading/Heading.component.jsx";
+import List from "./components/list/List.component.jsx";
 
 ReactDOM.render(
   <div>
     <Heading />
-    <ul>
-      <li>Bacon</li>
-      <li>Groceries</li>
-      <li>Ham</li>
-    </ul>
+    <List />
   </div>,
   document.getElementById("root")
 );
